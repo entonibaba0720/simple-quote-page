@@ -12,6 +12,10 @@ body {
   background: url('assets/freedom.jpg') no-repeat center;
   background-size: cover;
   color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
@@ -32,5 +36,19 @@ body {
   font-style: italic;
 }
 
-    
+
+@media screen and (max-width: 1280px) {
+  .quote, .author {
+    font-size: 1.5rem;
+    transition: font-size 3s ease;
+  }
+  
+}
+@media screen and (max-width: 760px) {
+  .quote, .author {
+    font-size: 1.2rem;
+    transition: font-size 3s ease;
+  }
+  
+}
   
