@@ -36,6 +36,28 @@ body {
   font-style: italic;
 }
 
+footer {
+  width: 30%;
+  text-align: center;
+}
+
+button {
+  padding: 2%;
+  border-radius: 5px;
+}
+button a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav .active {
+  background-color: #9996a0;
+}
+
+nav button:hover {
+  background-color: #9996a0;
+}
+
 
 @media screen and (max-width: 1280px) {
   .quote, .author {
